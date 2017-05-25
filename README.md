@@ -1,2 +1,2 @@
 # School_Assistant
-Android Application to manage tutorships of with the teachers
+Native ANDROID APP to manage tutorships of with the teachers
