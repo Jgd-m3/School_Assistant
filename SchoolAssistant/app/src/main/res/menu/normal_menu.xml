@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnOpPref"
+        android:title="@string/confOpMn"/>
+    <item
+        android:id="@+id/mnOpAbout"
+        android:title="@string/aboutOpMn"/>
+    <item
+        android:id="@+id/mnOpWeb"
+        android:title="@string/webOpMn"/>
+    <item
+        android:id="@+id/mnOpContact"
+        android:title="@string/contactOpMn"/>
+</menu>

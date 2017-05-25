@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--
+        <android.support.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:minHeight="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            tools:ign"UnusedAttribute"/>
+             ACTUALIZA VERSION PARA INCORPORARLO
+            android:elevation="@dimen/elevation"/> -->
+
+    <TextView
+        android:text="@string/saludoPI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSaludo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <Button
+        android:text="@string/btnTutoriaPI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnTutoriasPadre"
+        android:onClick="tutoriasClick"/>
+
+    <Button
+        android:text="@string/btnNewTutoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newTutoriaClick"
+        android:onClick="newTutoriaClick"/>
+
+    <Button
+        android:text="@string/btnLogs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:onClick="logsClick"/>
+
+    <Button
+        android:text="@string/btnBackup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        android:onClick="backupClick"/>
+
+    <Button
+        android:text="@string/mapBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button11"
+        android:onClick="mapaClick"/>
+
+    <Button
+        android:text="@string/btnDiscPI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:onClick="clickDisconPadre"/>
+
+
+</LinearLayout>

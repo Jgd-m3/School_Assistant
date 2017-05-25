@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="m3z.dsgn.schoolassistant.FragContainer">
+
+    <fragment
+        class="m3z.dsgn.schoolassistant.FragmentA"
+        android:id="@+id/fragA"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="20"
+        tools:layout="@layout/fragmentelement"/>
+
+    <fragment
+        class="m3z.dsgn.schoolassistant.FragmentB"
+        android:id="@+id/fragB"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="80"
+        tools:layout="@layout/fragmentb"/>
+
+</LinearLayout>

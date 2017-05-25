@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main -->
+    <string name="app_name">School Assistant</string>
+    <string name="mainTitle">Welcome to the assistant</string>
+    <string name="btnMenuMain">Hold and select type</string>
+    <string name="txtUserMain">User</string>
+    <string name="txtPassMain">Pass</string>
+    <string name="btnConn">Connect</string>
+    <string name="btnExit">Exit</string>
+    <!-- contextMenu -->
+    <string name="contextOp1">Father</string>
+    <string name="contextOp2">Teacher</string>
+
+
+    <!-- Padre Inicial -->
+    <string name="saludoPI">Welcome</string>
+    <string name="btnTutoriaPI">Tutorship</string>
+    <string name="btnOptionsPI">Other Options</string>
+    <string name="btnDiscPI">Disconnect</string>
+    <string name="btnNewTutoria">New tutorship</string>
+    <!-- menu -->
+    <string name="contactOpMn">Contact</string>
+    <string name="aboutOpMn">About us</string>
+    <string name="webOpMn">Web</string>
+    <string name="confOpMn">Preferences</string>
+
+    <!-- otros recursos -->
+    <string name="despedidaMain">See you</string>
+    <string name="rellenaMain">Fill all fields and choose a user type</string>
+    <string name="developedBy">Developed by JGD</string>
+    <string name="toastTutorias">Tutorship assistant with the teacher</string>
+
+    <!-- preferencias -->
+    <string name="cat2Pref">Img list</string>
+    <string name="cat1Pref">Category 1</string>
+    <string name="pre4">img customized</string>
+    <string name="pre2">Second Preference</string>
+    <string name="pre3">Third Preference</string>
+    <string name="pre1">First Preference</string>
+    <string name="summCat4">if exists, load the customized picture</string>
+    <string name="summTemporal">I do not know what preferences can be implemented</string>
+
+    <!-- about us -->
+    <string name="aboutTxt">We are the secondary school Maestre de Calatrava</string>
+
+    <!-- tutorias -->
+    <string name="tituTuto">Tutorship successful</string>
+    <string name="emptList">You have not any tutorship yet</string>
+
+    <string name="btnAñadeTutoria">Ask tutorship</string>
+    <string name="profNewTutoria">Professor</string>
+    <string name="fechaNewTutoria">Date(DD/MM/AAAA)</string>
+    <string name="failProf">Insert a name of teacher</string>
+    <string name="failDate">Insert a correct date</string>
+
+
+    <string name="btnRegistrar">New Register</string>
+    <string name="btnOKregistrar">REGISTER</string>
+    <string name="userRegistrar">User</string>
+    <string name="passRegistrar">Pass</string>
+    <string name="cancelregister">Cancel</string>
+    <string name="btnLogs">Logs</string>
+    <string name="VerLogs">Watch logs</string>
+    <string name="btnBackup">This show the backup</string>
+    <string name="VerBackup">Watch Backup</string>
+    <string name="yoClick">Go to my position</string>
+    <string name="mapBtn">Maps</string>
+    <string name="LogSuccess">Success login</string>
+    <string name="regSucc">Success Register</string>
+    <string name="regfail">wrong register</string>
+    <string name="logfail">User or Pass Wrong</string>
+</resources>

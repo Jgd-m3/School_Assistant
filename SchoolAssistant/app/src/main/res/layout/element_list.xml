@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+
+    android:paddingBottom="10dp"
+
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+
+
+    <ImageView
+        android:id="@+id/ivListaImagen"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:maxHeight="55dp"
+        android:maxWidth="55dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/escribiendo"/>
+
+    <TextView
+        android:id="@+id/tvListaNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:id="@+id/tvListaCodigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvListaNombre"
+        android:layout_toRightOf="@+id/tvListaNombre"
+        android:layout_toEndOf="@+id/tvListaNombre"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp" />
+
+</RelativeLayout>

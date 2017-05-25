@@ -1,0 +1,86 @@
+<resources>
+    <!-- Main -->
+    <string name="app_name">Asistente Escolar</string>
+    <string name="mainTitle">Bienvenido al asistente escolar</string>
+    <string name="btnMenuMain">Manten pulsado y Elije</string>
+    <string name="txtUserMain">Usuario</string>
+    <string name="txtPassMain">Contraseña</string>
+    <string name="btnConn">Conectar</string>
+    <string name="btnExit">Salir</string>
+    <!-- contextMenu -->
+    <string name="contextOp1">Padre</string>
+    <string name="contextOp2">Profesor</string>
+
+
+    <!-- Padre Inicial -->
+    <string name="saludoPI">Bienvenido</string>
+    <string name="btnTutoriaPI">Tutorias</string>
+    <string name="btnOptionsPI">Otras Opciones</string>
+    <string name="btnDiscPI">Desconectar</string>
+    <string name="btnNewTutoria">Nueva Tutorias</string>
+
+    <!-- menu -->
+    <string name="contactOpMn">Contacto</string>
+    <string name="aboutOpMn">Sobre Nosotros</string>
+    <string name="webOpMn">Web</string>
+    <string name="confOpMn">Configuracion</string>
+
+    <!-- Opciones -->
+    <!--     TO ERASE -->
+    <string name="contactOp">Contacto</string>
+    <string name="aboutOp">Sobre Nosotros</string>
+    <string name="webOp">Web</string>
+    <string name="confOp">Configuracion</string>
+
+
+    <!-- otros recursos -->
+    <string name="despedidaMain">Hasta luego</string>
+    <string name="rellenaMain">Rellena todos los campos y elije tipo de usuario</string>
+    <string name="developedBy">Desarrollado por JGD</string>
+    <string name="toastTutorias">Gestor de tutorias con el profesor</string>
+
+    <!-- preferencias -->
+    <string name="cat2Pref">Imagen Lista</string>
+    <string name="cat1Pref">Categoria 1</string>
+    <string name="pre4">Imagen personalizada</string>
+    <string name="pre2">Segunda Preferencia</string>
+    <string name="pre3">Tercera Preferencia</string>
+    <string name="pre1">Primera Preferencia</string>
+    <string name="summCat4">Carga la fotografia personalizada si la hay</string>
+    <string name="summTemporal">Aún no se que preferencias podría implementarle</string>
+
+    <!-- about us -->
+    <string name="aboutTxt">Somos el instituto de secundaria Maestre de Calatrava</string>
+
+    <!-- tutorias -->
+    <string name="tituTuto">Tutorias realizadas</string>
+    <string name="emptList">No has tenido tutorias</string>
+
+    <string name="btnAñadeTutoria">Pedir Tutoria</string>
+    <string name="profNewTutoria">Profesor</string>
+    <string name="fechaNewTutoria">Fecha(DD/MM/AAAA)</string>
+
+    <string name="failProf">Inserta el nombre de un profesor</string>
+    <string name="failDate">Inserta una fecha correcta</string>
+
+
+    <string name="btnRegistrar">Registrate</string>
+    <string name="btnOKregistrar">REGISTRAR</string>
+    <string name="userRegistrar">Usuario</string>
+    <string name="passRegistrar">Contraseña</string>
+    <string name="cancelregister">Cancelar</string>
+
+    <string name="btnLogs">Logs</string>
+    <string name="VerLogs">Ver logs</string>
+    <string name="btnBackup">Esto muestra el backup</string>
+    <string name="VerBackup">Ver Backup</string>
+    <string name="title_activity_localizacion">Map</string>
+    <string name="yoClick">Ir a mi posicion</string>
+    <string name="mapBtn">Mapas</string>
+
+    <string name="LogSuccess">Login Correcto</string>
+    <string name="logfail">Usuario o contraseña incorrecto</string>
+    <string name="regSucc">Registro exitoso</string>
+    <string name="regfail">Registro erroneo</string>
+    <!-- to translate -->
+</resources>

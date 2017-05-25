@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory
+        android:title="@string/cat1Pref">
+        <CheckBoxPreference
+            android:key="pref1"
+            android:title="@string/pre1"
+            android:summary="@string/summTemporal"/>
+
+        <CheckBoxPreference
+            android:key="pref2"
+            android:title="@string/pre2"
+            android:summary="@string/summTemporal"/>
+
+        <EditTextPreference
+            android:key="pref3"
+            android:title="@string/pre3"
+            android:summary="@string/summTemporal"
+            android:dialogTitle="@string/summTemporal"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/cat2Pref">
+        <CheckBoxPreference
+            android:key="pref4"
+            android:title="@string/pre4"
+            android:summary="@string/summCat4"/>
+    </PreferenceCategory>
+</PreferenceScreen>
